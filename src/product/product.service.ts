@@ -20,6 +20,7 @@ export class ProductService {
         // console.info(a);
         const d = await this.prismaService.product.findMany({});
         console.info(d);
+        console.info(d);
  
 
 
